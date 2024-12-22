@@ -1,0 +1,52 @@
+body{
+    background-color: #24353F;
+}
+
+nav {
+    background-color: #24353F;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+nav .navbar-brand{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+nav button{
+    color: white !important;
+}
+
+nav a:hover{
+    color: white !important;
+}
+
+.main{
+    background-color: #24353F;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+
+}
+
+.main p{
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #17a2b8;
+    font-size: 40px;
+    line-height: 48px;
+
+}
+
+nav .navbar-toggler{
+    border: 1px white solid;
+}
+
+nav .navbar-toggler:focus{
+    box-shadow: none;
+}
